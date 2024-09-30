@@ -3,7 +3,7 @@ import { FC } from "react";
 const Index: FC = () => {
   return (
     <div className="flex w-[calc(100% - 160px)] p-20">
-      <div className="text-5xl font-normal basis-[30%]">About</div>
+      <div className="text-5xl font-medium basis-[30%]">About</div>
       <div className="text-2xl font-normal leading-9 text-left basis-[70%] text-primary-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
