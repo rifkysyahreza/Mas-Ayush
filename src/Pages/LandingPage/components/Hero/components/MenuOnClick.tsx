@@ -11,7 +11,7 @@ const MenuOnClick: FC = () => {
 
         <div className="flex flex-col gap-7 pl-24 justify-start text-[#F4F7FA] font-medium text-6xl leading-[72px] pb-32">
           <a href="">Home</a>
-          <a href="/about">About</a>
+          <a href="#about">About</a>
           <a href="">Work</a>
           <a href="/contact">Contact</a>
         </div>

@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Index: FC = () => {
   return (
-    <div className="flex w-[calc(100% - 160px)] p-20">
+    <div className="flex w-[calc(100% - 160px)] p-20" id="about">
       <div className="text-5xl font-medium basis-[30%]">About</div>
       <div className="text-2xl font-normal leading-9 text-left basis-[70%] text-primary-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
