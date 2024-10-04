@@ -44,15 +44,7 @@ const Body: FC = () => {
         </div>
 
         <div className="w-full">
-          <div className="flex flex-col gap-8 pb-8">
-            <ContactForm label="Name" placeholder="Enter your name" />
-            <ContactForm label="Email" placeholder="Enter your email" />
-            <ContactForm label="Subject" placeholder="Enter the subject" />
-            <ContactForm label="Message" placeholder="Type your message" />
-          </div>
-          <button className="px-16 py-6 bg-black rounded-full text-[#F4F7FA] font-medium text-lg">
-            Submit
-          </button>
+          <ContactForm />
         </div>
       </div>
     </div>

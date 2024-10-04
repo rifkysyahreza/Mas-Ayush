@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const Index: FC = () => {
   return (
-    <div id="landingpage">
+    <>
       <Header />
       <Hero />
       <About />
@@ -17,7 +17,7 @@ const Index: FC = () => {
       <Gallery />
       <Testimonials />
       <Footer />
-    </div>
+    </>
   );
 };
 
